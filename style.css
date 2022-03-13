@@ -1,5 +1,7 @@
 body {
     text-align: center;
+    background-image: url("./bg.png");
+    background-repeat: no-repeat;
 }
 
 video {
