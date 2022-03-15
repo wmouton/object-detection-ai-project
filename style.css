@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-image: url("./bg.png");
+    background-image: url("./bg2.png");
     background-repeat: no-repeat;
 }
 
@@ -17,4 +17,16 @@ table {
 tr, td {
     border: 0px;
     text-align: center; 
+}
+
+.arint {
+    color:rgb(94, 3, 3);
+}
+
+.aicolor {
+    color: rgb(5, 38, 110);
+}
+
+.onoff {
+    color: rgb(94, 3, 3);
 }

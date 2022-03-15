@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <h2 id="loadingText">Loading...</h2>
+  <h2 id="loadingText"><span class="aicolor">Loading...</span></h2>
   <!-- video with size of 0px because of chrome -->
   <video playsinline autoplay muted controls="true" id="video"></video>
   <br><br>
@@ -19,20 +19,20 @@
   <br><br>
   <table>
     <tr>
-      <td>AI:</td>
+      <td> <span class="arint">Artificial Intelligence: </span></td>
       <td>
         <div class="switch">
           <label>
-            Off
+            <span class="onoff">Off </span>
             <input type="checkbox" id="ai" disabled>
             <span class="lever"></span>
-            On
+            <span class="onoff">On </span>
           </label>
         </div>
       </td>
     </tr>
     <tr>
-      <td>FPS:</td>
+      <td><span class="aicolor">AI - FPS:</span></td>
       <td>
         <p class="range-field">
           <input type="range" id="fps" min="1" max="60" value="50">
